@@ -11,14 +11,167 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
-        <body>
-            <h1>H1 title</h1>
-            <h2>H2 title</h2>
-            <div class="container" >DIV</div>
-            <div class="container">container</div>
-            <span>SPAN</span>
-            <b>BOLLD</b>
-            <i>ITALIC</i>
-        </body>
+           
     </head>
+    <body>
+        <div class="app" id="app">
+            <header class ="app__header header">
+                <div class="header__container container">
+                    <a href="/" class="header__logo">
+                        <img src="assets/Logo.svg" alt="SYSTEM" width="190" height="32" class="header__logo-img">
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item"><a href="#app" class="header__menu-link">Домой</a></li>
+                            <li class="header__menu-item"><a href="#features" class="header__menu-link">Особенности</a></li>
+                            <li class="header__menu-item"><a href="#benefits" class="header__menu-link">Преимущества</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main class="app__main">
+                <section class ="hero">
+                    <div class="hero__container container">
+                        <div class="hero__content">
+                            <figure class="hero__figure">
+                                <img src="assets/hero_1.jpg" alt="Разработано более 2000 приложений" class="hero__image">
+                            </figure>
+                            <div class="hero__text">
+                                <h1 class="hero__title">
+                                    Разработано 2000+ приложений
+                                </h1>
+                                <div class="hero__subtitle">
+                                    Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, 
+                                    которые доступны в любое время суток
+                                </div>
+                                <button class="hero__button">Присоединяйтесь</button>
+                            </div>
+                            
+                        </div>
+                        <div class="hero_dots">
+                            <span class="hero__dot active"></span>
+                            <span class="hero__dot"></span>
+                            <span class="hero__dot"></span>
+                        </div>
+                    </div>
+                </section>
+                <section class="features" id="features">
+                    <div class="features__container container">
+                        <div class="features__list">
+                            <div class="features__item">
+                                <img src="assets/Check.svg"width="44" height="44" alt="check" class="features__item-icon">
+                                <div class="features__item-content">
+                                    <h3 class="features__item-title">
+                                        Для бизнеса
+                                    </h3>
+                                    <p class="features__item-caption">
+                                        Создаем кастомизированные программы и сервисы
+                                        для развития управленческих команд в российских и
+                                        международных компаниях
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="features__item">
+                                <img src="assets/Check.svg"width="44" height="44" alt="check" class="features__item-icon">
+                                <div class="features__item-content">
+                                    <h3 class="features__item-title">
+                                        Для колл-центров
+                                    </h3>
+                                    <p class="features__item-caption">
+                                        Помогаем руководителям и командам колл-центров 
+                                        создать полный цикл по поддержке клиентов и
+                                        организовать контроль качества
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="features__item">
+                                <img src="assets/Check.svg"width="44" height="44" alt="check" class="features__item-icon">
+                                <div class="features__item-content">
+                                    <h3 class="features__item-title">
+                                        Облачные хранилища
+                                    </h3>
+                                    <p class="features__item-caption">
+                                        Разрабатываем локальные защищенные
+                                        корпоративные хранилища, а также осуществляем
+                                        поддержку на протяжении всего времени
+                                        пользования
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="benefits" id="benefits">
+                    <div class="benefits__container container">
+                        <h2 class="benefits__title">
+                            Преимущества
+                        </h2>
+                        <div class="benefits__list">
+                            
+                            <div class="benefits__item">
+                                
+                                <div class="benefits__item-content">
+                                    <div class="benefits__item-image">
+                                        <img src="assets/Big Imgsupport.jpg"width="440" height="317" alt="support" class="benefits__item-image">
+                                    </div>
+                                    <h3 class="benefits__item-title">
+                                        Поддержка 24/7
+                                    </h3>
+                                    <p class="benefits__item-caption">
+                                        Вы можете положиться на нашу круглосуточную
+                                        поддержку, которая решит любой вопрос в течении часа
+                                    </p>
+                                </div>
+                        </div>
+
+                        <div class="benefits__item">
+                            
+                            <div class="benefits__item-content">
+                                <div class="benefits__item-image">
+                                    <img src="assets/Big Img@2x.png"width="440" height="317" alt="check" class="benefits__item-image">
+                                </div>
+                                
+                                <h3 class="benefits__item-title">
+                                    Гарантия возврата
+                                </h3>
+                                <p class="benefits__item-caption">
+                                    Если вам не понравится сервис, мы вернем вам
+                                    полную стоимость в течении 30-дневного периода
+                                </p>
+                            </div>
+                    </div>
+
+                        <div class="benefits__item">
+                            
+                            <div class="benefits__item-content">
+                                <div class="benefits__item-image">
+                                    <img src="assets/Big Img.jpg"width="440" height="317" alt="check" class="benefits__item-image">
+                                </div>
+                                <h3 class="benefits__item-title">
+                                    Удобство и простота
+                                </h3>
+                                <p class="benefits__item-caption">
+                                    Все наши сервисы и приложения интуитивно понятны
+                                    для пользователей всех уровней
+                                </p>
+                            </div>
+                    </div>
+                    
+                    </div>
+                    
+                </section>
+            </main>
+            <footer class="app__footer footer">
+                <div class="footer__container container">
+                    <div class="footer__copyright">
+                        2000-2022 @ System
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
